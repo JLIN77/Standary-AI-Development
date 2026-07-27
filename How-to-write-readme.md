@@ -1,4 +1,4 @@
-# Projecr Name
+# Project Name
 
 ---
 ## Overview:
