@@ -7,8 +7,8 @@ A deep learning framework for ...
 
 > **Author:** xxxx xx
 > **Organization:** xxx
-> **Created:** 2026-06-30
-> **Period:** 2026-06-30 ~ 2026-08-10
+> **Created:** 2026-xx-xx
+> **Period:** 2026-xx-xx ~ 2026-xx-xx
 
 
 ---
@@ -38,6 +38,7 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu132
 ## Dataset Preparation
 0. **初始化数据**
 >|--Data
+>
 >|--Project
 
 
@@ -62,11 +63,11 @@ python train.py
 ## Inference
 - Mode 1: one file
 ```
-python inference.py xxx.ply --ckpt ./runs/hm_run_0x/best_loss.pth --save ./output
+python inference.py xxx.ply --ckpt ./runs/run_0x/best_loss.pth --save ./output
 ```
 - Mode 2: one folfer
 ```
-python inference.py path/to/folder/ --ckpt ./runs/hm_run_0x/best_loss.pth --save ./output
+python inference.py path/to/folder/ --ckpt ./runs/_run_0x/best_loss.pth --save ./output
 ```
 
 
